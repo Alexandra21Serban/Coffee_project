@@ -1,0 +1,172 @@
+/* Universal Styles */
+
+body {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Navigation */
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav img {
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  nav span {
+    margin: 10px 0px;
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  
+  nav a {
+    color: #666666;
+  }
+  
+  /* Content Container */
+  
+  .content {
+    /* overflow: scroll; */
+    height: 500px;
+    margin: 10px auto;
+    width: 100%;
+  }
+  
+  /* Content Header */
+  
+  .header {
+    height: 320px;
+    background-image: url("/backgroundheader2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header h1 { padding: 20px;
+    margin: 0 auto;
+    background-color: #05A8AA;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+  }
+  
+  /* Content Body */
+  
+  .content .body {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .body p {
+    color: #333333;
+    font-weight: 100;
+    line-height: 34px;
+    width: 90%;
+    margin-top: 18px;
+  }
+  
+  /* Go up Button */
+  
+  .button { width: 200px;
+    border: 1px solid #05A8AA;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 4px;
+    color: #05A8AA;
+    display: block;
+    font-weight: 700;
+  }
+  
+  .button:hover {
+    background-color: #05A8AA;
+    border: 1px solid #05A8AA;
+    color: #FFF;
+  }
+  
+  /* Content Favours */
+  
+  ul.flavours { padding: 20px;
+  }
+  
+  ul.flavours li { width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 3px;
+    display: inline-block;
+    background-color: #05A8AA;
+    list-style: none;
+  }
+  
+  .flavours .category {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+  }
+  
+  .flavours .value {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
+
+  .title { 
+    color: #05A8AA;
+    padding: 10px;
+  }
+/* Opening hours */
+  #oh  {
+    padding-top: 20px;
+    text-decoration: underline;
+  }
+
+  .table {
+    margin: 0 auto;  }
+
+  .days {
+    font-size: 16px;
+    color: #05A8AA;
+    padding: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 23px;
+  }
+
+  /* Form information */
+.question {
+  color: #05A8AA;
+}
+
+#send {
+  color: #05A8AA;
+  border: 1px solid #05A8AA;
+}
+#send:hover {
+  background-color: #05A8AA;
+  color: white;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #05A8AA;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.5;
+}

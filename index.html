@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee at Alexandra's</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700|Oswald:300,400,700" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="./CSS/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+  <script type="text/javascript" src="main.js" ></script>
+</head>
+
+<body>
+
+  <!-- Navigation Section -->
+
+  <nav>
+    <img src="logo.jpg" />
+    <span><a href="#menu">MENU</a></span>
+    <span><a href="#flv">COFFEE FLAVOURS</a></span>
+    <span><a href="#oh">OPENING HOURS</a></span>
+  </nav>
+
+  <!-- Content Section -->
+
+  <div class="content">
+
+    <!-- Content Header -->
+    
+    <div class="header">
+      <h1>OUR SPECIAL RISTRETTO</h1>
+    </div>
+
+    <!-- Content Body -->
+
+    <div class="body">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <br>
+      <!-- Flavours Information -->
+
+      <h2 id="flv" class="title">FLAVOURS</h2>
+      <p>By now you’re probably already wondering which coffee is right for your palate. To help you with that choice, we’re going to look at the four main flavour of coffee types typically present in a cup of coffee: acidity, bitterness, sweetness and saltiness.</p>
+      <ul class="flavours">
+        <li>
+          <span class="category">ACIDITY</span>
+          <span class="value">Look for light roasted beans.</span>
+        </li>
+        <li>
+          <span class="category">BITTERNESS</span>
+          <span class="value">Look for dark roasted coffees.</span>
+        </li>
+        <li>
+          <span class="category">SWEETNESS</span>
+          <span class="value">Swirl your coffee when it's ready!</span>
+        </li>
+        <li>
+          <span class="category">SALTINESS</span>
+          <span class="value">It's created by the extraction process.</span>
+        </li>
+      </ul>
+
+      <!-- Menu information  -->
+      <h2 id="menu" class="title">MENU</h2>
+      <img src="menu.jpg">
+        <br>
+
+              <!-- Form -->
+      <form action="/" method="GET" id="form" >
+        <label for="coffee" class="question" >Tell us which is your favourite coffee:</label>
+        <input type="text" id="coffee" name="coffee" list="coffees">
+        <datalist id="coffees">
+          <option value="Espresso"></option>
+          <option value="Ristretto"></option>
+          <option value="Lungo"></option>
+          <option value="Romano"></option>
+          <option value="Ginger Cafe"></option>
+          <option value="Noisette"></option>
+        </datalist>
+    </form>
+    
+      <button type="submit" id="send">Submit</button>
+
+          <!-- Opening hours info  -->
+      <h2 id="oh" class="title" >OPENING HOURS</h2>
+      <table class="table" >
+        <tr class="days" ><th>Monday:</th><td>9am - 5pm</td></tr>
+        <tr class="days"><th>Tuesday:</th><td>9am - 5pm</td></tr>
+        <tr class="days"><th>Wednesday:</th><td>9am - 5pm</td></tr>
+        <tr class="days"><th>Thursday:</th><td>9am - 5pm</td></tr>
+        <tr class="days"><th>Friday:</th><td>9am - 5pm</td></tr>
+        <tr class="days"><th>Saturday:</th><td>9am - 5pm</td></tr>
+        <tr class="days"><th>Sunday:</th><td>Closed</td></tr>
+      </table>
+        <br>
+
+    
+       <!-- Go up Button -->
+        <a href="#top" class="button">GO TO TOP</a>
+
+    </div>
+  </div>
+  
+  <!-- Footer -->
+<footer>
+  &copy Coffee at Alexandra's. All rights reserved.
+</footer>
+</body>
+
+
+</html>
