@@ -48,7 +48,7 @@ body {
   
   .header {
     height: 320px;
-    background-image: url("/backgroundheader2.jpg");
+    background-image: url("../backgroundheader2.jpg");
     background-position: center;
     background-size: cover;
   }
